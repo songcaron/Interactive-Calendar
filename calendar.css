@@ -1,0 +1,60 @@
+html, body
+{
+	width: 100%
+}
+ 
+td.not-current
+{
+	color: #777;
+}
+ 
+table, td
+{
+	border: 3px solid purple;
+	border-radius: 10px;
+	margin: 0 auto;
+	table-layout: fixed;
+	text-align: center;
+}
+
+#eventModifications,#changeCalendar
+{
+	text-align: center;
+}
+	
+td.hover:hover{
+	background-color: #f5f5f5
+}
+ 
+td
+{
+	border-color: purple;
+	border-width: 3px;
+	border-style: solid;
+	padding: 15px;
+	text-align: center;
+}
+
+tr.headercolor
+{
+	font-size: 60px;
+	font-weight: bold;
+	color: #660066;
+}
+
+tr.weekdaycolor
+{
+	font-weight: bold;
+	font-size: 15px;
+	color: #ff99ff;
+}
+
+td.weekdaytable
+{
+	background-color: #330033;
+}
+ 
+td.weekendtable
+{
+	background-color: ff1aff;
+}
